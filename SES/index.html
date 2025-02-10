@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation de produits</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma boutique</h1>
+    </header>
+
+
+    <main>
+        <section class="products">
+            <!-- Produit 1 : Tasses à café -->
+            <article class="product">
+                <a href="acheter-tasse.html">
+                    <div class="video-container">
+                        <!-- Image de fond avant la vidéo -->
+                        <div class="video-placeholder" style="background-image: url('https://w2.giffitsstatic.com/images/teaser/webp/teaser_kaffeebecher_start.webp');"></div>
+
+                        <!-- Vidéo -->
+                        <video class="product-video" preload="none" muted loop playsinline
+                            poster="https://w2.giffitsstatic.com/images/teaser/webp/teaser_kaffeebecher_start.webp">
+                            <source src="https://w1.giffitsstatic.com/images/teaser/teaser_kaffeebecher.webm" type="video/webm">
+                            <source src="https://w3.giffitsstatic.com/images/teaser/teaser_kaffeebecher.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </a>
+                <h2 class="product-title">Tasse à café</h2>
+                <p class="product-price">7 €</p>
+            </article>
+
+            <!-- Produit 2 : Stylo -->
+            <article class="product">
+                <a href="acheter-stylo.html">
+                    <div class="video-container">
+                        <!-- Image de fond avant la vidéo -->
+                        <div class="video-placeholder" style="background-image: url('https://w1.giffitsstatic.com/images/teaser/webp/teaser_kugelschreiber_start.webp');"></div>
+
+                        <!-- Vidéo -->
+                        <video class="product-video" preload="none" muted loop playsinline
+                            poster="https://w1.giffitsstatic.com/images/teaser/webp/teaser_kugelschreiber_start.webp">
+                            <source src="https://w5.giffitsstatic.com/images/teaser/teaser_kugelschreiber.webm" type="video/webm">
+                            <source src="https://w4.giffitsstatic.com/images/teaser/teaser_kugelschreiber.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </a>
+                <h2 class="product-title">Stylo</h2>
+                <p class="product-price">2,50 €</p>
+            </article>
+
+            <article class="product">
+                <a href="acheter-cle-usb.html">
+                    <div class="video-container">
+                        <!-- Badge Promotion pour le produit 3 -->
+                        <span class="promotion-badge">Promotion -33%</span>
+                        
+                        <!-- Image de fond avant la vidéo -->
+                        <div class="video-placeholder" style="background-image: url('https://w3.giffitsstatic.com/images/teaser/webp/teaser_usb-sticks_start.webp');"></div>
+
+                        <!-- Vidéo -->
+                        <video class="product-video" preload="none" muted loop playsinline
+                            poster="https://w3.giffitsstatic.com/images/teaser/webp/teaser_usb-sticks_start.webp">
+                            <source src="https://w3.giffitsstatic.com/images/teaser/teaser_usb-sticks.webm" type="video/webm">
+                            <source src="https://w1.giffitsstatic.com/images/teaser/teaser_usb-sticks.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </a>
+                <h2 class="product-title">Clés USB</h2>
+                <p class="product-price">10 € <span class="discounted-price">15 €</span></p>
+            </article>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <a href="https://fr.trustpilot.com/review/www.vistaprint.fr" target="_blank" rel="noopener">
+                    Nos clients nous font confiance. Mention Excellent sur <span class="underline">Trustpilot</span>
+                </a>
+            </div>
+    
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="tel:+0188247180">01 88 24 71 80</a></li>
+                        <li><a href="/">Accueil</a></li>
+                        <li><a href="/confidentialite">Politique de confidentialité</a></li>
+                        <li><a href="/cgv">CGV</a></li>
+                        <li><a href="/mentions-legales">Mentions légales</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-payments">
+                    <a href="https://pay.google.com/intl/fr_fr/about/" target="_blank">
+                        <img src="img/Google-Pay.svg" alt="Google Pay">
+                    </a>
+                    <a href="https://www.mastercard.fr/fr-fr.html" target="_blank">
+                        <img src="img/em_mastercard_icon.svg" alt="Mastercard">
+                    </a>
+                    <a href="https://www.paypal.com/fr/home" target="_blank">
+                        <img src="img/em_paypal_icon.svg" alt="Paypal">
+                    </a>
+                    <a href="https://www.visa.fr/" target="_blank">
+                        <img src="img/em_visa_icon.svg" alt="Visa">
+                    </a>
+                    <a href="https://www.apple.com/fr/apple-pay/" target="_blank">
+                        <img src="img/applepay.svg" alt="Apple Pay">
+                    </a>
+                    <a href="https://www.cartes-bancaires.com/" target="_blank">
+                        <img src="img/cb_-_logo.svg" alt="Carte Bleue">
+                    </a>
+                </div>
+    
+                <div class="footer-socials">
+                    <a href="https://www.facebook.com" target="_blank"><img src="img/Facebook_Logo.svg" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/mahe_brzn" target="_blank"><img src="img/Instagram_Logo.svg" alt="Instagram"></a>
+                    <a href="https://x.com/mahe_brzn" target="_blank"><img src="img/X-logo.svg" alt="X"></a>
+                    <a href="https://www.pinterest.com" target="_blank"><img src="img/Pinterest_Logo.svg" alt="Pinterest"></a>
+                </div>
+            </div>
+    
+            <div class="footer-copyright">
+                © 2025 - Tous droits réservés.
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

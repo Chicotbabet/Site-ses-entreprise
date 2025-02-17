@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <style>
+        /* Ajout d'un style spécifique pour cette page */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .message {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .message h1 {
+            font-size: 8rem;
+            margin-bottom: 20px;
+            color: #e8491d;
+        }
+        .message p {
+            font-size: 1.5rem;
+            color: #ddd;
+            margin-bottom: 30px;
+        }
+
+        /* Bouton avec animation d'ombre */
+        .main-button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            color: #fff;
+            background-color: #e8491d;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: block;
+            margin: auto;
+            margin-top: 50px; 
+
+        }
+        .main-button:hover {
+            background-color: #cf3e14;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            transform: translateY(-3px); 
+        }
+
+        .discreet-button {
+            padding: 5px 10px;
+            font-size: 1rem;
+            color: #ccc;
+            background-color: #111;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+            display: block;
+            margin: auto;
+            margin-top: 10px; 
+            margin-bottom: 50px; 
+        }
+
+        .discreet-button:hover {
+            background-color: #444;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            transform: translateY(-3px); 
+
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: scale(0.8); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h1>TU FAIS QUOI LA</h1>
+        <h2>Erreur 404</h2>
+        <p>je crois que tu t'es perdu 😅</p>
+        <button class="main-button" onclick="goHome()">Retour à l'accueil</button>
+        <button class="discreet-button" onclick="goBack()">Retour à la page précédente</button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+        function goHome() {
+            window.location.href = 'index.html'; // Remplacez par l'URL de votre page d'accueil
+        }
+
+        // Gestionnaire d'événements pour lancer le jeu du dinosaure
+        document.addEventListener('keydown', function(event) {
+            if (event.code === 'Space') {
+                startDinosaurGame();
+            }
+        });
+
+        function startDinosaurGame() {
+            // Code pour lancer le jeu du dinosaure
+            window.location.href = 'chrome-dino-enhanced-main/index.html'; // Remplacez par le chemin local du jeu du dinosaure
+        }
+    </script>
+</body>
+</html>

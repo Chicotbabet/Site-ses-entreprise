@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Données Financières & Production</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>📊 Données Financières & Production</h1>
+    </header>
+
+    <main>
+        <!-- Tableau des Produits -->
+        <section class="table-section">
+            <h2>📌 Récapitulatif des Produits</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produit</th>
+                        <th>Quantités Vendues</th>
+                        <th>Coûts de Production (€)</th>
+                        <th>Chiffre d'Affaires (€)</th>
+                        <th>Valeur Ajoutée (€)</th>
+                        <th>Bénéfice (€)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tasses à café</td>
+                        <td>50 000</td>
+                        <td>65 000</td>
+                        <td>350 000</td>
+                        <td>285 000</td>
+                        <td>220 000</td>
+                    </tr>
+                    <tr>
+                        <td>Stylos</td>
+                        <td>68 000</td>
+                        <td>47 600</td>
+                        <td>170 000</td>
+                        <td>122 400</td>
+                        <td>74 800</td>
+                    </tr>
+                    <tr>
+                        <td>Clés USB</td>
+                        <td>35 000</td>
+                        <td>94 500</td>
+                        <td>350 000</td>
+                        <td>255 500</td>
+                        <td>161 000</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td><strong>Total</strong></td>
+                        <td>153 000</td>
+                        <td>207 100</td>
+                        <td>870 000</td>
+                        <td>662 900</td>
+                        <td>455 800</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Tableau des Charges Fixes -->
+        <section class="table-section">
+            <h2>📌 Charges Fixes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type de Charge</th>
+                        <th>Coût Mensuel (€)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Salaires des employés</td>
+                        <td>31 400 €</td>
+                    </tr>
+                    <tr>
+                        <td>Loyer du local</td>
+                        <td>5 090 €</td>
+                    </tr>
+                    <tr>
+                        <td>Électricité, internet, entretien</td>
+                        <td>2 500 €</td>
+                    </tr>
+                    <tr>
+                        <td>Achat de matières premières</td>
+                        <td>5 000 €</td>
+                    </tr>
+                    <tr>
+                        <td>Publicité et marketing</td>
+                        <td>3 000 €</td>
+                    </tr>
+                    <tr>
+                        <td>Autres charges (logiciels, assurances, etc.)</td>
+                        <td>2 500 €</td>
+                    </tr>
+                    <tr>
+                        <td>Dons</td>
+                        <td>50 000 €</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td><strong>Total des Charges Fixes</strong></td>
+                        <td>99 490 €</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Graphiques -->
+        <section class="chart-section">
+            <div class="chart-container">
+                <h3>📊 Chiffre d'Affaires et Bénéfice</h3>
+                <canvas id="revenueChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>📊 Répartition des Charges</h3>
+                <canvas id="costsChart"></canvas>
+            </div>
+        </section>        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

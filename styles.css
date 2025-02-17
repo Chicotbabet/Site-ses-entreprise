@@ -24,7 +24,7 @@ header {
     padding: 40px 20px;
     background-color: #fff;
     width: 100%;
-    max-width: 1200px;
+
     border-bottom: 1px solid #e0e0e0;
 }
 
@@ -65,7 +65,7 @@ header h1:hover {
     height: 200px;
     position: relative;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 12.5px;
     background-color: #f0f0f0;
 }
 
@@ -97,7 +97,7 @@ header h1:hover {
 
 .products img {
     width: 100%;
-    border-radius: 20px; /* Coins arrondis */
+    border-radius: 15px; /* Coins arrondis */
     margin-bottom: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ajout de l'ombre */
 }

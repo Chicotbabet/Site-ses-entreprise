@@ -2,7 +2,7 @@
 
 ## 🎯 Objectif du Projet
 
-Ce projet a pour but de présenter **CustomWave**, une entreprise fictive spécialisée dans la création et la vente de produits personnalisés (textiles, goodies, accessoires publicitaires, etc.).
+Ce projet a pour but de présenter une entreprise fictive spécialisée dans la création et la vente de produits personnalisés (textiles, goodies, accessoires publicitaires, etc.).
 
 Le site vitrine permet de :
 - Décrire l'activité de l’entreprise.
@@ -36,4 +36,4 @@ Il peut être utilisé comme base pour un vrai projet de site vitrine de merchan
 
 ---
 
-**✨ CustomWave — Vos idées, notre design.**
+Le readme a été fait avec ChatGPT car je n'ai pas réellement besoin de me pencher sur un vrai readme.md, je m'excuse donc pour les incoherences entre le projet et ce que vous venez de lire.
